@@ -1,0 +1,43 @@
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  margin:13px,20px,5px,2px;
+  padding:13px,20px,5px,2px;
+}
+
+#heding{
+	font-family:"verdana";
+	color:red;
+}
+h2+p{
+	color:blue;
+	
+	font-weight:bolder;
+	
+	text-decoration:underline;
+}
+p:hover{
+	color:purple;
+	
+}
+p:visited{
+	color:red;
+}
+
+ul{
+background-color:gray;	
+overflow:Scroll;
+}
+li:nth-child(2n){
+	background-color:white;
+}
+#heding{
+	position:fixed;
+	
+	font-size:bolder;
+}
+.textdirection{
+	direction:rtl;
+}
+
